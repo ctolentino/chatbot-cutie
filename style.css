@@ -1,0 +1,43 @@
+#title{
+	text-align: center;
+}
+
+#botInfo{
+	text-align: center;
+}
+
+#botBox{
+	width: 300px;
+	border: 15px solid green;
+	padding: 50px;
+	margin: auto;
+}
+
+#chatBoxBot{
+	font: 17px arial, sans-serif;
+	width: 300px;
+	border: 15px solid green;
+	margin: auto;
+	padding: 50px;
+	text-align: center;
+}
+
+/*#userBox{
+	width: 300px;
+	border: 15px solid blue;
+	padding: 50px;
+	margin: auto;
+}*/
+
+#chatBoxUser{
+	font: 17px arial, sans-serif;
+	width: 300px;
+	border: 15px solid blue;
+	margin: auto;
+	padding: 50px;
+	text-align: center;
+}
+
+footer {
+	text-align: center;
+}
