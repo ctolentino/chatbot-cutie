@@ -1,41 +1,54 @@
+header{
+	background-color: rgba(0,120,0, 0.6);
+}
+
 #title{
+	font-family: "Permanent Marker", cursive;
 	text-align: center;
+	font-size: 350%;
+	margin-bottom: 5px;
 }
 
 #botInfo{
+	font-family: "Permanent Marker", cursive;
+	margin-top: 5px;
+	margin-bottom: 30px;
 	text-align: center;
+}
+
+#interface{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 #botBox{
 	width: 300px;
 	border: 15px solid green;
-	padding: 50px;
-	margin: auto;
+	padding: 10px 0px 0px 0px;
+	text-align: center;
+	margin-bottom: 30px;
 }
 
-#chatBoxBot{
-	font: 17px arial, sans-serif;
+#botMessage{
+	font-family: "Kalam", cursive;
+}
+
+#riddler{
+	width: 100px;
+	height: 200px;
+}
+
+#userBox{
 	width: 300px;
-	border: 15px solid green;
-	margin: auto;
-	padding: 50px;
+	border: 15px solid purple;
+	padding: 10px 0px 10px 0px;
 	text-align: center;
 }
 
-/*#userBox{
-	width: 300px;
-	border: 15px solid blue;
-	padding: 50px;
-	margin: auto;
-}*/
-
-#chatBoxUser{
-	font: 17px arial, sans-serif;
-	width: 300px;
-	border: 15px solid blue;
-	margin: auto;
-	padding: 50px;
-	text-align: center;
+#einstein{
+	width: 200px;
+	height: 120px;
 }
 
 footer {

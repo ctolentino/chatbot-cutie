@@ -3,22 +3,26 @@
 <head>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="style.css">
+	<link id = "riddlerFont" href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Kalam|Permanent+Marker" rel="stylesheet">
 	<title>Chatbot Page</title>
 </head>
 <body>
-	<header><h1 id = "title">Spectacular Chatbot</h1></header>
+	<header>
+	<h1 id = "title">Riddler's Chat Domain</h1>
+	<h2 id = "botInfo">Say hello to Alice to get your first clue</h2>
+	</header>
 	
-	<p id = "botInfo">Welcome to the Spectacular Chatbot!  Type in a question and get an answer!</p>
-
-	<div id = "interface">
-		<div id = "botBox">
-			<img src="" alt="">
-			<h1></h1>
+	<div id="interface">
+		<div id= "botBox">
+			<img id="riddler" src="/assets/riddler.jpg" alt="">
+			<h3 id = "botMessage">Hey Einstein! My name is Alice.</h3>
 		</div>
 
 		<div id = "userBox">
-			<img src="" alt="">
-			<input type="text" id="chatBoxUser">
+			<img id = "einstein" src="http://www.adweek.com/wp-content/uploads/files/2016_Oct/salesforce-einstein-hed-2016.png" alt="">
+			<textarea name="" id="chatBoxUser" cols="30" rows="10"></textarea>
+			<!--<input type="text" id="chatBoxUser" >-->
 			<button id="userBtn">Submit Message</button>
 		</div>
 	</div>
